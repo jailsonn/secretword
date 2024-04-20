@@ -1,4 +1,5 @@
 // simulando o banco de dados
+//uma Variável, constante objeto
 export const wordsList = {
     carro: ["Motor", "Porta", "Capô", "Pneu", "Antena"],
     fruta: ["Banana", "Maçã", "Pêra", "Mamão", "Laranja"],
