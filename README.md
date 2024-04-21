@@ -1,23 +1,26 @@
-![](img-projeto.png)
+![](img-jogo.png)
 
 # Secret Word
-Esse jogo é de adivinhar palavras, onde você fala uma letra e se a mesma estiver correta vai formando uma plavra.
+Esse jogo é de adivinhar palavras, onde você digita uma letra e se a mesma estiver correta vai formando uma palavra.
+Você tem 3 chances.
 
 
 ## 🔥 Introdução
 O objetivo desse jogo é adivinhar palavras relacionadas a um determinado tema, onde você inicia com 200 pontos
 e tem uma dica da palavra que você precisa adivinhar.
 
+
 ### ⚙️ Pré-requisitos
-Não tém pré requisitos, é só baixar o repositorio, descompactar e no terminal da um yarn dev
-porem vou deixar o link do jogo, e é só voce jogar.
+Não têm pré-requisitos, é só baixar o repositório, descompactar, e no terminal dá um yarn dev
+porem eu vou deixar o link do jogo, e é só você jogar.
+
 
 ### 🔨 Guia de instalação
 Não precisa instalar nada.
 
 ### 🛠️ Testes
 Fiz varios testes
-
+- Link para testar o Jogo: [Jogar-agora](https://glittery-hummingbird-f22364.netlify.app/)
 
 ### 👨‍💻 Tecnologias usadas
  - React.js
