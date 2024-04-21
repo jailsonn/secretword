@@ -2,7 +2,7 @@
 
 # Secret Word
 Esse jogo é de adivinhar palavras, onde você digita uma letra e se a mesma estiver correta vai formando uma palavra.
-Você tem 3 chances.
+Você tem 5 chances.
 
 
 ## 🔥 Introdução
@@ -24,10 +24,13 @@ Fiz varios testes
 
 ### 👨‍💻 Tecnologias usadas
  - React.js
+ - Vite
+ - Yarn
  - CSS3
  - JavaScript
  - Nodejs
- - Yarn
+ - React Hoock, useCallback, useEffect, useState
+
 
  **Backend:**
  - JSON 

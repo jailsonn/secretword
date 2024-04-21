@@ -12,14 +12,14 @@ import StartScreen from "./components/StartScreen";
 import Game from "./components/Game";
 import GameOver from "./components/GameOver";
 
-// O jogo vai ter drez 3 estagios
+// O jogo vai ter trez 3 estagios
 const stages = [
   { id: 1, name: "start" },
   { id: 2, name: "game" },
   { id: 3, name: "end" },
 ];
 
-const guessesQty = 3
+const guessesQty = 5
 
 function App() {
   const [gameStage, setGameStage] = useState(stages[0].name);
@@ -28,7 +28,7 @@ function App() {
 
   const [pickedWord, setPickedWord] = useState("");
   const [pickedCategory, setPickedCategory] = useState("");
-  const [letters, setLletters] = useState([]);
+  const [letters, setLetters] = useState([]);
 
   const [guessedLetters, setGuessedLetters] = useState([]);
   const [wrongLetters, setWrongLetters] = useState([]);
@@ -75,7 +75,7 @@ function App() {
     // fill states
     setPickedWord(word);
     setPickedCategory(category);
-    setLletters(wordLetters);
+    setLetters(wordLetters);
 
     setGameStage(stages[1].name);
   }, [pickWordAndCategory]);

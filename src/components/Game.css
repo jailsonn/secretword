@@ -11,11 +11,42 @@
 }
 
 .workContainer {
-    margin: 1.5em;
+    
+    margin: 1.5em auto;
     padding: 1.5em;
-    border: 20px solid #ecfa00;
+    border: 20px solid #eb9008;
+    border-radius: 50px;
     display: flex;
 }
+
+@media (min-width: 290px) and (max-width: 500px) {
+    .workContainer {
+        width: 300px;
+        display: flex;
+    }     
+    .start, h1, p {
+        margin: 20px;
+        font-size: 1.5em;
+    }
+}
+@media (min-width: 501px) and (max-width: 800px) {
+    .workContainer {
+        width: 450px;
+        display: flex;
+    }     
+    .start, h1, p {
+        margin: 20px;
+        font-size: 1.8em;
+    }
+}
+@media (min-width: 801px) and (max-width: 1024px) {
+    .workContainer {
+        width: 750px;
+        display: flex;
+        justify-content: center;
+    }     
+}
+ 
 
 .letter, .blankSquare {
     font-size: 70px;
