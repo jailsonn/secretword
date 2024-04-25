@@ -20,7 +20,7 @@ Não precisa instalar nada.
 
 ### 🛠️ Testes
 Fiz varios testes
-- Link para testar o Jogo: [Jogar-agora](https://genuine-halva-b3789b.netlify.app/)
+- Link para testar o Jogo: [Jogar-agora](https://exquisite-pony-44c86a.netlify.app)
 
 ### 👨‍💻 Tecnologias usadas
  - React.js
