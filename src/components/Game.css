@@ -1,52 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .game h1 {
     font-size: 2.5em;
+    margin: 15px;
+    
 }
 
 .points span {
     font-weight: bold;
+    font-size: 1.5em;
+    color: #ecfa00;
+}
+
+.tip {
+    font-size: 1.4em;
+    margin: 10px;
 }
 
 .tip span {
     color: #ecfa00;
+    font-size: 1.5em;
 }
 
 .workContainer {
-    
+    display: flex;
+    justify-content: center;
     margin: 1.5em auto;
-    padding: 1.5em;
-    border: 20px solid #eb9008;
+    padding: 1em;
+    border: 30px solid #eb9008;
     border-radius: 50px;
     display: flex;
 }
-
-@media (min-width: 290px) and (max-width: 500px) {
-    .workContainer {
-        width: 300px;
-        display: flex;
-    }     
-    .start, h1, p {
-        margin: 20px;
-        font-size: 1.5em;
-    }
-}
-@media (min-width: 501px) and (max-width: 800px) {
-    .workContainer {
-        width: 450px;
-        display: flex;
-    }     
-    .start, h1, p {
-        margin: 20px;
-        font-size: 1.8em;
-    }
-}
-@media (min-width: 801px) and (max-width: 1024px) {
-    .workContainer {
-        width: 750px;
-        display: flex;
-        justify-content: center;
-    }     
-}
- 
 
 .letter, .blankSquare {
     font-size: 70px;
@@ -61,6 +49,66 @@
 
 }
 
+.start, p {
+    margin: 20px 10px;
+    font-size: 1.5em;
+}
+
+@media (min-width: 370px) and (max-width: 894px) {
+    .workContainer {
+        width: 280px;
+        margin: 1.5em auto;
+        padding: 1.em;
+        border: 20px solid #eb9008;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .letter, .blankSquare {
+        font-size: 2em;
+        line-height: 2;
+        border: 2px solid #000;
+        height: 60px;
+        width: 60px;
+        text-transform: uppercase;
+        background-color: #fff;
+        color: #000;
+        font-weight: bold;
+    
+    }
+
+    .game h1 {
+        font-size: 2em;
+    }
+
+    .points span {
+        font-size: 1.6em;
+        color: #ecfa00;
+    }
+    
+    .tip span {
+        font-size: 1.4em;
+        font-weight: 900;
+    }
+
+    .start, p {
+        margin: 20px 10px;
+        font-size: 1.2em;
+    }
+    
+    .letterContainer button {
+        font-size: 1em;
+    }
+
+}
+
+.letterContainer button {
+    font-size: 1em;
+}
+
+ 
 .letterContainer p {
     margin-bottom: 1.2em;
 }

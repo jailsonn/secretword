@@ -1,4 +1,4 @@
-![](img-jogo.png)
+![](/public/img-jogo.png)
 
 # Secret Word
 Esse jogo é de adivinhar palavras, onde você digita uma letra e se a mesma estiver correta vai formando uma palavra.
@@ -27,8 +27,7 @@ Fiz varios testes
  - Vite
  - Yarn
  - CSS3
- - JavaScript
- - Nodejs
+ - Layout responsivo 📲
  - React Hoock, useCallback, useEffect, useState
 
 
@@ -49,3 +48,6 @@ Esse projeto está sob a licença (livre) - acesse os detatlhes [LICENSE.md](www
 - Email de contato para: __jailson.nogueira2@gmail.com__
 - WhatsApp: __159 8819-6147__
 - LinkeDin: [meu_linkedin](https://www.linkedin.com/in/jailsonn-silva/)
+
+### 📲Imagem no SmartPhone
+![](/public/jogo-celular.png)
